@@ -98,18 +98,18 @@ const Hero = () => {
 
           <motion.div className="hero-stats" variants={itemVariants}>
             <div className="stat-item">
-              <span className="stat-number">150+</span>
-              <span className="stat-label">Zadowolonych klientów</span>
+              <span className="stat-number">✓</span>
+              <span className="stat-label">Zadowoleni klienci</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat-item">
-              <span className="stat-number">5+</span>
-              <span className="stat-label">Lat doświadczenia</span>
+              <span className="stat-number">✓</span>
+              <span className="stat-label">Wieloletnie doświadczenie</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat-item">
-              <span className="stat-number">300%</span>
-              <span className="stat-label">Średni wzrost ROI</span>
+              <span className="stat-number">✓</span>
+              <span className="stat-label">Wysoki wzrost ROI</span>
             </div>
           </motion.div>
         </motion.div>

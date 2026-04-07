@@ -30,13 +30,13 @@ const Portfolio = () => {
       id: 1,
       title: 'E-commerce Fashion',
       category: 'seo',
-      description: 'Kompleksowa strategia SEO dla sklepu z odzieżą premium. Wzrost organicznego ruchu o 340% w 8 miesięcy.',
+      description: 'Kompleksowa strategia SEO dla sklepu z odzieżą premium. Znaczny wzrost organicznego ruchu.',
       image: '🛍️',
       tags: ['SEO', 'E-commerce', 'Content'],
       stats: [
-        { label: 'Wzrost ruchu', value: '+340%' },
-        { label: 'Pozycje TOP 3', value: '47' },
-        { label: 'ROI', value: '520%' },
+        { label: 'Wzrost ruchu', value: 'Znaczny' },
+        { label: 'Pozycje TOP 3', value: 'Wiele' },
+        { label: 'ROI', value: 'Wysoki' },
       ],
       color: '#035131',
     },
@@ -48,9 +48,9 @@ const Portfolio = () => {
       image: '⚖️',
       tags: ['Google Ads', 'Lead Gen', 'B2B'],
       stats: [
-        { label: 'Koszt leada', value: '-65%' },
-        { label: 'Konwersje', value: '+180%' },
-        { label: 'Quality Score', value: '9/10' },
+        { label: 'Koszt leada', value: 'Obniżony' },
+        { label: 'Konwersje', value: 'Wzrost' },
+        { label: 'Quality Score', value: 'Wysoki' },
       ],
       color: '#a62026',
     },
@@ -62,9 +62,9 @@ const Portfolio = () => {
       image: '🚀',
       tags: ['React', 'UI/UX', 'Animacje'],
       stats: [
-        { label: 'Czas ładowania', value: '0.8s' },
-        { label: 'Lighthouse', value: '98/100' },
-        { label: 'Konwersja', value: '+85%' },
+        { label: 'Czas ładowania', value: 'Błyskawiczny' },
+        { label: 'Lighthouse', value: 'Najwyższy' },
+        { label: 'Konwersja', value: 'Wzrost' },
       ],
       color: '#0d467b',
     },
@@ -72,13 +72,13 @@ const Portfolio = () => {
       id: 4,
       title: 'Sieć Restauracji',
       category: 'seo',
-      description: 'Lokalne SEO dla sieci 12 restauracji. Dominacja w Google Maps i wynikach lokalnych.',
+      description: 'Lokalne SEO dla sieci restauracji. Dominacja w Google Maps i wynikach lokalnych.',
       image: '🍔',
       tags: ['Local SEO', 'Google Maps', 'Reviews'],
       stats: [
-        { label: 'Wizyt z Map', value: '+420%' },
-        { label: 'Opinie', value: '4.8★' },
-        { label: 'Lokalne #1', value: '12/12' },
+        { label: 'Wizyt z Map', value: 'Duży wzrost' },
+        { label: 'Opinie', value: 'Doskonałe' },
+        { label: 'Lokalne #1', value: 'Wszystkie' },
       ],
       color: '#035131',
     },
@@ -90,9 +90,9 @@ const Portfolio = () => {
       image: '🛋️',
       tags: ['PMax', 'Shopping', 'ROAS'],
       stats: [
-        { label: 'ROAS', value: '780%' },
-        { label: 'Sprzedaż', value: '+250%' },
-        { label: 'CTR', value: '4.2%' },
+        { label: 'ROAS', value: 'Bardzo wysoki' },
+        { label: 'Sprzedaż', value: 'Wzrost' },
+        { label: 'CTR', value: 'Powyżej normy' },
       ],
       color: '#a62026',
     },
@@ -104,9 +104,9 @@ const Portfolio = () => {
       image: '🏗️',
       tags: ['WordPress', 'CRM', 'Portfolio'],
       stats: [
-        { label: 'Zapytania', value: '+320%' },
-        { label: 'Mobile', value: '100%' },
-        { label: 'Loading', value: '1.2s' },
+        { label: 'Zapytania', value: 'Duży wzrost' },
+        { label: 'Mobile', value: 'Pełna responsywność' },
+        { label: 'Loading', value: 'Szybki' },
       ],
       color: '#0d467b',
     },
@@ -114,13 +114,13 @@ const Portfolio = () => {
       id: 7,
       title: 'Klinika Medyczna',
       category: 'seo',
-      description: 'Content marketing i SEO dla prywatnej kliniki medycznej z 15 specjalizacjami.',
+      description: 'Content marketing i SEO dla prywatnej kliniki medycznej z wieloma specjalizacjami.',
       image: '🏥',
       tags: ['Medical SEO', 'Content', 'E-E-A-T'],
       stats: [
-        { label: 'Ruch organiczny', value: '+580%' },
-        { label: 'Artykuły TOP 10', value: '120+' },
-        { label: 'Rezerwacje', value: '+210%' },
+        { label: 'Ruch organiczny', value: 'Znaczący wzrost' },
+        { label: 'Artykuły TOP 10', value: 'Wiele' },
+        { label: 'Rezerwacje', value: 'Wzrost' },
       ],
       color: '#035131',
     },
@@ -132,9 +132,9 @@ const Portfolio = () => {
       image: '🏠',
       tags: ['Display', 'YouTube', 'Remarketing'],
       stats: [
-        { label: 'Zapytania', value: '+190%' },
-        { label: 'CPC', value: '-45%' },
-        { label: 'View rate', value: '42%' },
+        { label: 'Zapytania', value: 'Wzrost' },
+        { label: 'CPC', value: 'Obniżony' },
+        { label: 'View rate', value: 'Wysoki' },
       ],
       color: '#a62026',
     },
@@ -146,9 +146,9 @@ const Portfolio = () => {
       image: '📚',
       tags: ['Next.js', 'Stripe', 'LMS'],
       stats: [
-        { label: 'Użytkownicy', value: '15K+' },
-        { label: 'Kursy', value: '50+' },
-        { label: 'Ukończenia', value: '89%' },
+        { label: 'Użytkownicy', value: 'Tysiące' },
+        { label: 'Kursy', value: 'Wiele' },
+        { label: 'Ukończenia', value: 'Wysoki %' },
       ],
       color: '#0d467b',
     },
@@ -294,16 +294,16 @@ const Portfolio = () => {
             </div>
             <div className="results-stats">
               <div className="result-item">
-                <span className="result-number">2.5M+</span>
-                <span className="result-label">Wygenerowanych wizyt</span>
+                <span className="result-number">✓</span>
+                <span className="result-label">Tysiące wygenerowanych wizyt</span>
               </div>
               <div className="result-item">
-                <span className="result-number">€4M+</span>
-                <span className="result-label">Przychodu klientów</span>
+                <span className="result-number">✓</span>
+                <span className="result-label">Realny wzrost przychodów</span>
               </div>
               <div className="result-item">
-                <span className="result-number">340%</span>
-                <span className="result-label">Średni wzrost ROI</span>
+                <span className="result-number">✓</span>
+                <span className="result-label">Wysoki zwrot z inwestycji</span>
               </div>
             </div>
           </motion.div>

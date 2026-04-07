@@ -7,13 +7,13 @@ const About = () => {
       name: 'Wojciech Borkowski',
       role: 'CEO & Founder',
       image: '👨‍💼',
-      description: 'Ekspert SEO z 10-letnim doświadczeniem w marketingu cyfrowym.',
+      description: 'Ekspert SEO z wieloletnim doświadczeniem w marketingu cyfrowym.',
     },
     {
       name: 'Anna Kowalska',
       role: 'Head of Google Ads',
       image: '👩‍💻',
-      description: 'Certyfikowany specjalista Google z portfolio 200+ kampanii.',
+      description: 'Certyfikowany specjalista Google z szerokim portfolio kampanii.',
     },
     {
       name: 'Michał Nowak',
@@ -30,10 +30,10 @@ const About = () => {
   ]
 
   const stats = [
-    { number: '150+', label: 'Zadowolonych klientów' },
-    { number: '500+', label: 'Zrealizowanych projektów' },
-    { number: '10+', label: 'Lat doświadczenia' },
-    { number: '98%', label: 'Wskaźnik satysfakcji' },
+    { number: '✓', label: 'Zadowoleni klienci' },
+    { number: '✓', label: 'Zrealizowane projekty' },
+    { number: '✓', label: 'Wieloletnie doświadczenie' },
+    { number: '✓', label: 'Wysoka satysfakcja' },
   ]
 
   const values = [
@@ -176,15 +176,15 @@ const About = () => {
               <div className="story-highlights">
                 <div className="highlight-item">
                   <span className="highlight-icon">📈</span>
-                  <span>Średni wzrost ruchu: +180%</span>
+                  <span>Wzrost ruchu organicznego</span>
                 </div>
                 <div className="highlight-item">
                   <span className="highlight-icon">💰</span>
-                  <span>ROI kampanii: 340%</span>
+                  <span>Wysoki zwrot z inwestycji</span>
                 </div>
                 <div className="highlight-item">
                   <span className="highlight-icon">⭐</span>
-                  <span>Ocena Google: 4.9/5</span>
+                  <span>Doskonałe opinie klientów</span>
                 </div>
               </div>
             </motion.div>
@@ -198,8 +198,8 @@ const About = () => {
               <div className="visual-card">
                 <div className="visual-accent"></div>
                 <div className="visual-content">
-                  <span className="visual-year">2014</span>
-                  <span className="visual-text">Rok założenia</span>
+                  <span className="visual-year">WB</span>
+                  <span className="visual-text">Horizon</span>
                 </div>
               </div>
               <div className="visual-decorations">
