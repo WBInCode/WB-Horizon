@@ -13,7 +13,6 @@ const Footer = () => {
     ],
     firma: [
       { name: 'O nas', path: '/o-nas' },
-      { name: 'Portfolio', path: '/portfolio' },
       { name: 'Cennik', path: '/cennik' },
     ],
     kontakt: [
