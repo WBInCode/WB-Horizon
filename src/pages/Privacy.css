@@ -1,0 +1,140 @@
+.privacy-page {
+  padding-top: 0;
+}
+
+/* Hero */
+.privacy-hero {
+  position: relative;
+  padding: 140px 0 80px;
+  overflow: hidden;
+  background: var(--gradient-hero);
+}
+
+.privacy-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.privacy-hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% 100%, rgba(166, 32, 38, 0.15) 0%, transparent 50%);
+}
+
+.privacy-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.privacy-hero-content h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.privacy-hero-content p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Content */
+.privacy-content {
+  padding: 80px 0;
+  background: var(--color-gray-50);
+}
+
+.privacy-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--color-white);
+  border-radius: var(--radius-xl);
+  padding: 60px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.privacy-section {
+  margin-bottom: 40px;
+}
+
+.privacy-section:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section h2 {
+  font-size: 1.375rem;
+  color: var(--color-gray-900);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-primary-100);
+}
+
+.privacy-section p {
+  font-size: 1rem;
+  color: var(--color-gray-600);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.privacy-section p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section ul {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.privacy-section li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: var(--color-gray-600);
+  line-height: 1.6;
+}
+
+.privacy-section li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.privacy-section li strong {
+  color: var(--color-gray-800);
+}
+
+.privacy-section a {
+  color: var(--color-primary-600);
+  font-weight: 500;
+}
+
+.privacy-section a:hover {
+  color: var(--color-primary-700);
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .privacy-hero {
+    padding: 60px 0;
+  }
+
+  .privacy-content {
+    padding: 60px 0;
+  }
+
+  .privacy-card {
+    padding: 32px 24px;
+  }
+
+  .privacy-section h2 {
+    font-size: 1.25rem;
+  }
+}

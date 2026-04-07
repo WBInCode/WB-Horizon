@@ -1,0 +1,27 @@
+{
+  "name": "wb-horizon",
+  "version": "1.0.0",
+  "description": "WB Horizon - Marketing Internetowy & Strony WWW",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["marketing", "seo", "google-ads", "web-development"],
+  "author": "WB Horizon",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.5"
+  }
+}
